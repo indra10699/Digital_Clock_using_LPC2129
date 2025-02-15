@@ -1,4 +1,0 @@
---cpu ARM7TDMI "startup.o" "lcd_driver.o" "main_digitalclock.o" "spi_driver.o" "uart0_driver.o" "delay.o" "i2c_driver.o" "adc_driver.o" --strict --scatter "p1.sct" 
---summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\p1.map" -o "p1.axf"
